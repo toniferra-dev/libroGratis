@@ -19,8 +19,8 @@ function initFormValidation() {
     });
     
     // Envío del formulario
-    form.addEventListener('submit', function(e) {
-        
+    form.addEventListener('submit', function() {
+
         const email = emailInput.value.trim();
         
         if (validateEmail(emailInput)) {
