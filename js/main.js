@@ -20,7 +20,6 @@ function initFormValidation() {
     
     // Envío del formulario
     form.addEventListener('submit', function(e) {
-        e.preventDefault();
         
         const email = emailInput.value.trim();
         
